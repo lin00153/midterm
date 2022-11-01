@@ -1,0 +1,157 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*my stlye*/
+body{
+    background-color: #aad4cf;
+}
+.container{
+    background-color: #d4e9e7;
+    width: 1024px;
+    margin: 0 auto;
+}
+/*title Lone starfish*/
+.title {
+	position: absolute;
+	color: white; font-size: 50px; font-family: Arial, Helvetica, sans-serif;
+	top: 32%;
+	bottom: 54%;
+	left: 55%;
+	transform: translate(-80%, -80%);
+}
+/*title Facts About Starfish*/
+.facts {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 29px;
+	padding-top: 4%;
+	margin-left: 10px;
+
+}
+/*listing under Facts About Starfish*/
+.listing {
+	list-style:disc;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+/*image on the top*/
+main img {
+width: 300px;
+float:left;
+margin-top: 7px;
+margin-bottom: 20px;
+margin-left: 10px;
+margin-right: 20px;
+}
+/*introduction paragraph on the right side*/
+main p {
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.7em;
+margin-left: 10px;
+}
+/*navigator bar*/
+#navigator li{
+display: inline;
+font-size: 25px;
+text-align: center;
+padding-left: 12%;
+padding-right: 12%;
+border-right: 1px solid black;
+}
+/*don't want the last right border*/
+#navigator li:last-child{
+border-right: none;
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 36px;
+margin-left: 10px;
+padding-top: 5%;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	margin-left: 10px;
+	padding-top: 20px;
+	}
+h4{
+		font-size: 20px;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	
+	}
+/*content in the form */	
+#name, #email, #message {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*box that is part of the form*/
+.box{
+width: 980px;
+height: 350px;
+border: 1px solid #191919;
+padding: 10px;
+margin: 10px;
+}
+/*for the send button*/
+#button4{
+	margin:10px;
+	margin-left: 3px;
+}
+/*opyright*/
+.copyright {
+text-align: right;
+padding-right: 25%;
+}
